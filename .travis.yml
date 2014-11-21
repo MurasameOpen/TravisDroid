@@ -25,5 +25,7 @@ android:
 
 script: 
   - TERM=dumb cd CIApp
+  - TERM=dumb ./gradlew check
+  - TERM=dumb ./gradlew assemble
   - TERM=dumb ./gradlew build
-  - TERM=dumb ./gradlew instrumentTest
+  - TERM=dumb ./gradlew app/src/instrumentTest
