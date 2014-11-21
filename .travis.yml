@@ -1,3 +1,4 @@
 script: 
-  - TERM=dumb CIApp/gradlew build
-  - TERM=dumb CIApp/gradlew connectedInstrumentTest
+  - TERM=dumb cd CIApp
+  - TERM=dumb ./gradlew build
+  - TERM=dumb ./gradlew connectedInstrumentTest
