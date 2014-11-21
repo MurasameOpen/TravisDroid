@@ -26,4 +26,4 @@ android:
 script: 
   - TERM=dumb cd CIApp
   - TERM=dumb ./gradlew build
-  - TERM=dumb ./gradlew connectedInstrumentTest
+  - TERM=dumb ./gradlew instrumentTest
