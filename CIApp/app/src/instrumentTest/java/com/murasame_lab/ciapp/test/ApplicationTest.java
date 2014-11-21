@@ -1,4 +1,4 @@
-package com.murasame_lab.ciapp.ciapp;
+package com.murasame_lab.ciapp.test;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
